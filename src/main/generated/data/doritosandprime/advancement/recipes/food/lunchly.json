@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_feastables": {
+      "conditions": {
+        "items": [
+          {
+            "items": "doritosandprime:feastables"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_prime": {
+      "conditions": {
+        "items": [
+          {
+            "items": "doritosandprime:prime"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "doritosandprime:lunchly"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_feastables",
+      "has_prime"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "doritosandprime:lunchly"
+    ]
+  }
+}
