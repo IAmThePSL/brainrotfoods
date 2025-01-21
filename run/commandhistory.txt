@@ -1,0 +1,26 @@
+/give @s doritosandprime:prime
+/give @s doritosandprime:prime 64
+/give @s doritosandprime:prime
+/give @s minecraft:item_frame
+/give @s doritosandprime:prime
+/time set day
+/give @s doritosandprime:prime
+/give @s doritosandprime:prime 62
+/give @s minecraft:item_frame
+/give @s doritosandprime:dorito
+/give @s doritosandprime:dorito 64
+/give @s doritosandprime:prime 64
+/time set day
+/give @s minecraft:milk_bucket
+/effect give @s minecraft:regeneration 10 200 false
+/give @s doritosandprime:prime 200
+/give @s doritosandprime:prime 100
+/give @s minecraft:flint_and_steel
+/give @s doritosandprime:prime 100
+/give @s doritosandprime:prime 100t
+/give @s doritosandprime:prime 100
+/give @s doritosandprime:prime 100t
+/give @s doritosandprime:prime 100
+/give @s doritosandprime:feastables
+/give @s minecraft:cocoa_beans
+/effect clear
